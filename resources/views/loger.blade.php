@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="{{asset('css/app.css')}}">
+    <link rel="stylesheet" href="{{asset('css/log.css')}}">
 <script src="{{asset('js/gochat.js')}}"></script>
 <script src="{{asset('js/jquery-3.7.1.min.js')}}"></script>
 </head>
@@ -14,7 +14,8 @@
 <div class="popup-container" id="popup-container">
   <div class="popup">
     <div class="popup-content">
-      <form action="{{asset('/check')}}">
+      <form action="{{asset('/check')}}" method="post">
+      @csrf
       <h2>¡Bienvenido!</h2>
       <label method="get">Nick:</label>
       <input type="text" name="nombre_usser" id="nombre_usser" required><br><br>

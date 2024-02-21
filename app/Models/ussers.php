@@ -5,10 +5,10 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Procesar_usuario extends Model
+class ussers extends Model
 {
     use HasFactory;
 
-    protected $table_ussers = 'ussers';
+    protected $table = 'ussers';
 
 }

@@ -13,8 +13,8 @@ use App\Http\Controllers\Msg;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-Route::get('/', [Msg::class, 'mensajeria']);
-Route::get('/check2', [Msg::class, 'verificar']);
+Route::get('/logger', [Msg::class, 'mensajeria']);
+Route::post('/check', [Msg::class, 'verificar']);
 // Route::get('/', function () {
 //     return view('welcome');
 // });
