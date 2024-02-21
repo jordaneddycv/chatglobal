@@ -1,5 +1,6 @@
 <link rel="stylesheet" href="{{asset('css/app.css')}}">
 <script src="{{asset('js/jquery-3.7.1.min.js')}}"></script>
+<script src="{{asset('js/chatglobal.js')}}"></script>
 
 
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -20,7 +21,7 @@
     </a>
     <hr>
     <ul class="nav nav-pills flex-column mb-auto">
-      <li class="nav-item">
+      {{-- <li class="nav-item">
         <a href="#" class="nav-link active" aria-current="page">
           <svg class="bi me-2" width="16" height="16"><use xlink:href="#home"></use></svg>
           Home
@@ -49,7 +50,8 @@
           <svg class="bi me-2" width="16" height="16"><use xlink:href="#people-circle"></use></svg>
           Customers
         </a>
-      </li>
+      </li> --}}
+      
     </ul>
     <hr>
     <!-- {{-- <div class="dropdown">
@@ -71,7 +73,6 @@
   <div id="world" style="width: 80vw; height: 100vh; background-color:greenyellow">
     <div id="mostrar_mensaje"></div>
     <div id="enviar_mensaje">
-      form
       <textarea name="buzon" id="buzon" cols="100" rows="1"></textarea>
       <button>
         >
