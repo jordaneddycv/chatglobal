@@ -54,7 +54,7 @@
 
 
   <div id="world" style="width: 80vw; height: 100vh; background-color:greenyellow">
-    <div id="mostrar_mensaje"><h1>Bienvenid@ mis estimados y queridos amigos  y...... rebeca, probablemente no este con ustedes el dia de hoy :c asi que dejare algo para que me recuerden mientras no este... (bueno capaz si llego a la ultima hora xd pero regresare con justificante)</h1></div>
+    <div id="mostrar_mensaje"><h1>Bienvenid@s este es mi chat donde se puede tener conversaciones entre un usuario y otro creado, si el usuario ya esta creado no se creara de nuevo, cada uno tendra su historial de conversacion y se recupera porque se guarda en la base de datos, solo debe hacer click en el nombre del otro usuario con el que estuvo hablando.</h1></div>
     <div id="enviar_mensaje" style="display: flex; align-items: center; justify-content: center;">
       <textarea name="buzon" id="buzon" cols="100" rows="1"></textarea>
       <button onclick="enviarMensaje()">
