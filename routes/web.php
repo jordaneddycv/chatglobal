@@ -15,6 +15,8 @@ use App\Http\Controllers\Msg;
 */
 Route::get('/logger', [Msg::class, 'mensajeria']);
 Route::post('/check', [Msg::class, 'verificar']);
+Route::post('/envio', [Msg::class, 'guardar_mensaje']);
+Route::get('/cerrar', [Msg::class, 'close']);
 // Route::get('/', function () {
 //     return view('welcome');
 // });
